@@ -2,22 +2,24 @@
 
 
 """
-Esse campo sera usado para novas tags:
+aqui esta a calculadora com python
 
-.lower = transforma tudo que for maiusculo em minusculo.
+ira funcionar quando entrar no terminal
 
-.startwith = começa com.
+ou so clicar em "ctrl + j"
 
 """
 
 #codigo:
 
+
+# solicitei a tag while e nela fiz as variaveis com os inputs para iniciar a calculadora
 while True:
     numero_1 = input("Digite um Número: ")
     numero_2 = input("Digite outro Número: ")
     operador = input("Digite o operador (+-/*): ")
 
-    numeros_validos = None
+    numeros_validos = None  #estou validando os numeros
     num_1_float = 0
     num_2_float = 0
     
