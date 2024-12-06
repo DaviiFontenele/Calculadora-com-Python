@@ -49,6 +49,9 @@ while True:
         print("digite apenas um operador.")
         continue
 
+
+    # aqui e a calculadora, poderia utilizar somente essas linhas, porem preciso fazer as validações para nao dar erro no codigo
+
     print("realizando sua conta, confira abaixo: ")
 
     if operador == "+":
