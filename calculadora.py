@@ -14,6 +14,9 @@ ou so clicar em "ctrl + j"
 
 
 # solicitei a tag while e nela fiz as variaveis com os inputs para iniciar a calculadora
+
+
+# essas primeiras linhas solicitam o numero e o operador, e validam
 while True:
     numero_1 = input("Digite um Número: ")
     numero_2 = input("Digite outro Número: ")
@@ -23,6 +26,7 @@ while True:
     num_1_float = 0
     num_2_float = 0
     
+    # aqui na try crio variaveis e transformo em float
     try:
         num_1_float = float(numero_1)
         num_2_float = float(numero_2)
@@ -30,6 +34,7 @@ while True:
     except:
         numeros_validos = None
     
+    # se for colocado outro caracteres que sao sejam numeros dara esse if e ira voltar para o começo do codigo com a tag "continue"
     if numeros_validos is None:
         print("Um ou ambos os numeros nao são validos.")
         continue
